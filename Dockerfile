@@ -2,7 +2,7 @@
 
 FROM alpine
 
-RUN apk add --no-cache bash curl
+RUN apk add --no-cache bash curl tar
 
 ENV VERSION v3.3.0-rc.1
 
