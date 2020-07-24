@@ -6,7 +6,7 @@ RUN apk add --no-cache bash curl
 
 ENV VERSION v3.3.0-rc.1
 
-RUN curl -sL https://storage.googleapis.com/kubernetes-helm/helm-${VERSION}-linux-amd64.tar.gz | tar xvzf && \
+RUN curl -sL https://storage.googleapis.com/kubernetes-helm/helm-${VERSION}-linux-amd64.tar.gz | tar xvz && \
     mv linux-amd64/helm /usr/local/bin/helm
 
 VOLUME /root/.helm
