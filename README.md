@@ -14,11 +14,11 @@ docker pull timzu/helm
 ## version
 
 ```
-ENV VERSION v3.20.0-rc.1
+ENV VERSION v4.0.5
 ```
 
 ## latest
 
 ```
-ENV LATEST v4.0.4
+ENV LATEST v4.0.5
 ```
